@@ -12,10 +12,13 @@
    ```yaml
    ethereum: 'mainnet:https://rpc1.piccadilly.autonity.org/'
    ```
-3. Change webclient image in webclient-uniswap service
+3. Change webclient image in webclient-uniswap and pluto-landing service
     ```yaml
     webclient-uniswap:
         image: <webclient_image_url>
+    ...
+    pluto-landing:
+        image: <pluto_landing_image_url>
     ```
 
 4. Run in terminal
